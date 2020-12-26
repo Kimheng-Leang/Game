@@ -1,0 +1,30 @@
+#myGame{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+
+}
+#Div1{
+  text-align: center;
+  margin-top: 10%;
+
+}
+#Div2{
+  padding: 20px;
+}
+#clearBotton{
+  position: relative;
+  bottom: 230px;
+}
+button{
+  padding: 20px;
+  color: blue;
+}
+#ShowTime{
+  font-size:2em;
+  color: blue;
+}
+#ShowScore{
+  font-size:2em;
+  color:rgb(28, 139, 230);
+}

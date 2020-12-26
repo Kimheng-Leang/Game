@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="../assets/css/Game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container">
+    <div id="Div1">
+        <div id="Div2">
+            <div id="ShowTime">
+                Time: 60
+            </div> 
+        </div>
+        <canvas id="myGame" tabindex="1"></canvas>
+        <div id="clearBotton">
+            <div id="ShowScore">Score: 00</div>
+            <button type="button" class="btn btn-outline-primary btn-lg " onclick="startGame()" id="startGame">Start Game</button>
+        </div>
+    </div>
+    <script src="../assets/js/Game.js"></script>
+</body>
+</html>
